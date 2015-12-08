@@ -1,1 +1,17 @@
 C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\bin\Debug\Uppgift5.exe.config
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5.csprojResolveAssemblyReference.cache
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\MMRow.baml
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\MainWindow.g.cs
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\MMRow.g.cs
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\App.g.cs
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5_MarkupCompile.cache
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5_MarkupCompile.lref
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\bin\Debug\Uppgift5.exe
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\bin\Debug\Uppgift5.pdb
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\MainWindow.baml
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5.g.resources
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5.Properties.Resources.resources
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5.csproj.GenerateResource.Cache
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5.exe
+C:\Users\Rikard\Documents\TestProjekt\Uppgift5\Uppgift5\obj\Debug\Uppgift5.pdb

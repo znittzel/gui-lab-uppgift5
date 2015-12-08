@@ -1,8 +1,22 @@
 ﻿<Window x:Class="Uppgift5.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        xmlns:local="clr-namespace:Uppgift5"
+        Title="MM" Height="400" Width="200">
+    <UniformGrid Name="theGrid" Rows="11" Columns="1">
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <local:MMRow></local:MMRow>
+        <UniformGrid Rows="1" Columns="2">
+            <TextBox Name="tstKey" TextChanged="tstKey_TextChanged" MaxLength="4" />
+            <Button Name="buttKlar" IsEnabled="False" Click="buttKlar_Click" Content="Klar"></Button>
+        </UniformGrid>
+    </UniformGrid>
 </Window>
