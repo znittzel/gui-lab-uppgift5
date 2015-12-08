@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MasterMind
 {
-    class MatchResult
+    public class MatchResult
     {
         private int _numCorrect;
         private int _numSemiCorrect;

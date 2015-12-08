@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MasterMind
 {
-    class MasterMindModel
+    public class MasterMindModel
     {
         private string _secretKey;
 

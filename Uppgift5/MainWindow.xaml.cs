@@ -21,20 +21,35 @@ namespace Uppgift5
     /// </summary>
     public partial class MainWindow : Window
     {
-        MasterMindModel model;
+        MasterMindModel _model = new MasterMindModel();
+        int _pos = 0;
+
         public MainWindow()
         {
             InitializeComponent();
-            model = new MasterMindModel();
         }
 
         private void buttKlar_Click(object sender, RoutedEventArgs e)
         {
             string testKey = tstKey.Text;
-            tstKey.Text = "";            
+            tstKey.Text = "";
 
-            MatchResult ms = model.TestIfMatch(testKey);
-            
+            if (MasterMindModel.IsValidKey(testKey))
+            {
+                MatchResult mr = _model.TestIfMatch(testKey);
+                showTestKey(_pos, testKey);
+                showTestResult(_pos, mr);
+                _pos++;
+
+                if (_pos == 10 || mr.NumCorrect == 4)
+                {
+                    tstKey.IsEnabled = false;
+                    buttKlar.IsEnabled = false;
+
+                    MessageBox.Show("Spelet är slut");
+                    Application.Current.Shutdown();
+                }
+            }
         }
 
         private void tstKey_TextChanged(object sender, TextChangedEventArgs e)
@@ -47,6 +62,22 @@ namespace Uppgift5
             {
                 buttKlar.IsEnabled = false;
             }
+        }
+
+        private MMRow getMMRowOfPosition(int pos)
+        {
+            int row = (theGrid.Children.Count - 2) - pos;
+            return theGrid.Children[row] as MMRow;
+        }
+
+        private void showTestKey(int pos, string testKey)
+        {
+            getMMRowOfPosition(pos).ShowTestKey(testKey);
+        }
+
+        private void showTestResult(int pos, MatchResult mr)
+        {
+            getMMRowOfPosition(pos).ShowTestResult(mr, false);
         }
     }
 }
