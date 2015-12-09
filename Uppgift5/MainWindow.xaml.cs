@@ -46,7 +46,11 @@ namespace Uppgift5
                     tstKey.IsEnabled = false;
                     buttKlar.IsEnabled = false;
 
-                    MessageBox.Show("Spelet är slut");
+                    if (mr.NumCorrect == 4)
+                        MessageBox.Show("Grattis, du vann! Spelet är slut.");
+                    else
+                        MessageBox.Show("Tyvärr, du förlorade. Spelet är slut.");
+
                     Application.Current.Shutdown();
                 }
             }

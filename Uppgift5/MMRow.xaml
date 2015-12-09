@@ -14,19 +14,19 @@
         <UniformGrid Name="gridTestKey" Rows="1" Columns="4" Grid.Column="0" Background="Gray">
             <Grid>
                 <Ellipse Stroke="Black"/>
-                <Label Content=""/>
+                <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content=""/>
             </Grid>
             <Grid>
                 <Ellipse Stroke="Black"/>
-                <Label Content=""/>
+                <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content=""/>
             </Grid>
             <Grid>
                 <Ellipse Stroke="Black"/>
-                <Label Content=""/>
+                <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content=""/>
             </Grid>
             <Grid>
                 <Ellipse Stroke="Black"/>
-                <Label Content=""/>
+                <Label VerticalAlignment="Center" HorizontalAlignment="Center" Content=""/>
             </Grid>
         </UniformGrid>
         <UniformGrid Name="gridResult" Rows="2" Columns="2" Grid.Column="1" Background="DarkGray">

@@ -30,7 +30,7 @@ namespace Uppgift5
         public void ShowTestKey(string testKey)
         {
             Brush[] br = new Brush[7] 
-            { Brushes.LightBlue, Brushes.Blue, Brushes.Yellow, Brushes.Green, Brushes.Red, Brushes.Orange, Brushes.LightSalmon };
+            { Brushes.LightBlue, Brushes.LightPink, Brushes.Yellow, Brushes.Green, Brushes.Red, Brushes.Orange, Brushes.LightSalmon };
 
             UniformGrid grid = this.gridTestKey as UniformGrid;
 
